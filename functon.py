@@ -1,21 +1,4 @@
-#Q:1
-def sum_of_evens(numbers):
-    total=0
-    for n in numbers:
-        if n % 2==0:  #check if even
-            total+=n
-            return total
-        #example usage
-        nums=[1,2,3,4,5,6,7,8]
-        print("sum of even numbers:",sum_of_evens(nums))
 
-
-#Q:2
-def reverse_string(text):
-    return text[::-1]
-#example usage
-word="hello"
-print("reversed string:",reverse_string(word))
 
 #Q:3
 def countSquares(x):
@@ -61,7 +44,24 @@ for value in power_of_two(4):
 #Q:8
 #list of tuples
 data=[(1,4),(3,1),(5,9),(2,6)]
+#Q:1
+def sum_of_evens(numbers):
+    total=0
+    for n in numbers:
+        if n % 2==0:  #check if even
+            total+=n
+            return total
+        #example usage
+        nums=[1,2,3,4,5,6,7,8]
+        print("sum of even numbers:",sum_of_evens(nums))
 
+
+#Q:2
+def reverse_string(text):
+    return text[::-1]
+#example usage
+word="hello"
+print("reversed string:",reverse_string(word))
 #sort using lambda (by second element)
 sorted_data=sorted(data,key=lambda x:x[1])
 print("original list:",data)

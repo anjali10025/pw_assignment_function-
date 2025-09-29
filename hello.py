@@ -30,5 +30,19 @@ def is_prime(num):
         if is_prime(n):
             print(n,"is prime")
         else:
-            print(n,"is not prime")    
+            print(n,"is not prime")
+
+
+
+a=15;b=3;c=4
+calc=a+b*c//(c%b)-5 
+print(calc)
     
+
+a=5;b=3
+print(a&b)
+
+
+
+d={1:"python",2:[1,2,3]}
+print(d.update({"one:2"}))
