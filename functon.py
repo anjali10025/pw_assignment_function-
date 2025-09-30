@@ -1,3 +1,21 @@
+#Q:1
+def sum_of_even(number):
+    for num in number:
+        if num%2==0:
+            total+=num
+            return total
+        #example usage
+        num=[1,2,3,4,5,6,7,8]
+        print("sum of even numbers:",sum_of_even(num))
+
+#Q:2
+def reverse_string(text):
+    return text[::-1]
+#example usage
+word="krishak"
+print("reversed string:",reverse_string(word))
+
+
 
 
 #Q:3
